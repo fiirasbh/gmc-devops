@@ -7,7 +7,7 @@ pipeline {
                 script {
                     // Checkout the Git repository
                     git branch: 'main',
-                    credentialsId: 'fben',
+                    credentialsId: 'git',
                     url: 'https://github.com/fiirasbh/gmc-devops.git'
                 }
             }
