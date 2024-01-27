@@ -6,8 +6,8 @@ pipeline {
             steps {
                 script {
                     // Checkout the Git repository
-                    git branch: 'fiirasbh',
-                    //credentialsId: 'fben',
+                    git branch: 'main',
+                    credentialsId: 'fben',
                     url: 'https://github.com/fiirasbh/gmc-devops.git'
                 }
             }
